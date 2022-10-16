@@ -1,0 +1,128 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+#logo
+{
+    display: flex;
+    justify-content: center;
+}
+img
+{
+    max-width: 100%;
+    height:  auto;
+}
+.swiper {
+        width: 90vw;
+        height: 20%;
+      }
+
+.swiper-slide {
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+      }
+
+.swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+#headertext {
+    font-family: 'Raleway',sans-serif;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+#intro-heading {
+    font-family: 'Raleway',sans-serif;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+}
+#intro-text {
+    font-family: 'Raleway',sans-serif;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    text-align:center;
+}
+#activity-heading {
+    font-family: 'Raleway',sans-serif;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+}
+#activity-text {
+    font-family: 'Raleway',sans-serif;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+#activity-header
+{
+    font-family: 'Raleway',sans-serif;
+    font-size: 0.85rem;
+    display: flex;
+    justify-content: center;
+}
+#activity-link {
+   
+}
+.cardhovercard {
+    display: inline-block;
+    padding: 10.5vw;
+    border-radius: 20%;
+    transition: transform ease 300ms;
+    margin-left: 4vw;
+    margin-top: 3vw;
+    width: 5vw;
+    position: relative;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.card-body-info
+{
+    display: flex;
+    justify-content: center;
+}
+.avatar {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.name {
+    padding-top: 1vw;
+    text-align: center;
+    font-family:  'Raleway', sans-serif;
+    color: black;
+    font-size: 2vw;
+    font-weight: bold;
+}
+
+.desc {
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color: black;
+    font-size: 2vw;
+}
+
+.price {
+    padding-top: 1vw;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    color: black;
+    font-size: 2vw;
+}
+
